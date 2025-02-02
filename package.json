@@ -1,0 +1,24 @@
+{
+  "name": "LibreríaComprometida",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format-check": "pretty-quick --check --pattern \"**/*.*js\"",
+    "format": "pretty-quick --verbose  --pattern \"**/*.*js\""
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.7.1",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "mongoose": "^7.3.1",
+    "next": "13.4.7",
+    "pretty-quick": "^3.1.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "vercel": "^31.0.1"
+  }
+}
